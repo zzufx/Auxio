@@ -71,6 +71,18 @@
             android:textAlignment="viewStart"
             android:textAppearance="@style/TextAppearance.Auxio.BodyLarge"
             tools:ignore="RtlSymmetry" />
+            
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:id="@+id/separator_double_backslash"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_medium"
+            android:layout_marginEnd="@dimen/spacing_medium"
+            android:paddingStart="@dimen/spacing_medium"
+            android:text="@string/set_separators_double_backslash"
+            android:textAlignment="viewStart"
+            android:textAppearance="@style/TextAppearance.Auxio.BodyLarge"
+            tools:ignore="RtlSymmetry" />
 
         <TextView
             android:layout_width="match_parent"

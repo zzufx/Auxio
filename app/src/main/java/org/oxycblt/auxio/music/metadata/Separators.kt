@@ -40,6 +40,7 @@ interface Separators {
         const val SLASH = '/'
         const val PLUS = '+'
         const val AND = '&'
+        const val DOUBLE_BACKSLASH = '\\\\'
 
         /**
          * Creates a new instance from a string of separator characters to use.

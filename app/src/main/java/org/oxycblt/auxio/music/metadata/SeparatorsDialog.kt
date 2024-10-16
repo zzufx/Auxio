@@ -76,6 +76,7 @@ class SeparatorsDialog : ViewBindingMaterialDialogFragment<DialogSeparatorsBindi
                     Separators.SLASH -> binding.separatorSlash.isChecked = true
                     Separators.PLUS -> binding.separatorPlus.isChecked = true
                     Separators.AND -> binding.separatorAnd.isChecked = true
+                    Separators.DOUBLE_BACKSLASH -> binding.separatorDoubleBackslash.isChecked = true
                     else -> logW("Unexpected separator in settings data")
                 }
             }
@@ -98,6 +99,7 @@ class SeparatorsDialog : ViewBindingMaterialDialogFragment<DialogSeparatorsBindi
         if (binding.separatorSlash.isChecked) separators += Separators.SLASH
         if (binding.separatorPlus.isChecked) separators += Separators.PLUS
         if (binding.separatorAnd.isChecked) separators += Separators.AND
+        if (binding.separatorDoubleBackslash.isChecked) separators += Separators.DOUBLE_BACKSLASH
         return separators
     }
 
